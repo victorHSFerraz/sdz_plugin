@@ -1,0 +1,20 @@
+name: Test
+version: '${project.version}'
+main: com.opusvf.test.Main
+api-version: 1.19
+authors: [ Victor ]
+description: Test Plugin
+commands:
+  distance:
+    description: get player distance
+    aliases:
+      - d
+  where:
+    description: show players location
+    aliases:
+      - w
+  canSleep:
+    description: show if all players can sleep
+    aliases:
+      - sleep
+
