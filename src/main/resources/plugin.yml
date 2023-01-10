@@ -17,4 +17,10 @@ commands:
     description: show if all players can sleep
     aliases:
       - sleep
+  config:
+    aliases:
+      - cfg
+  lastDeath:
+    description: show player last death
+
 
